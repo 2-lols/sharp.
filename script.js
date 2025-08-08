@@ -28,15 +28,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     ];
 
-    // This function will build the item cards from the 'items' variable.
-    const renderItems = () => {
-        // Get the container where the item cards will be placed.
-        const itemGrid = document.getElementById('item-grid');
+    const itemGrid = document.getElementById('item-grid');
+    const filterButtons = document.querySelectorAll('.filter-btn');
+
+    // This function will build the item cards from a given array.
+    const renderItems = (itemsToRender) => {
         // Clear any existing content in the grid.
         itemGrid.innerHTML = '';
 
         // Loop through each item in the data array.
-        items.forEach(item => {
+        itemsToRender.forEach(item => {
             // Create a new div element for the item card.
             const card = document.createElement('div');
             // Use the new class name for the card.
@@ -61,6 +62,29 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    // Call the function to render the items when the page loads.
-    renderItems();
+    // Add event listeners to each filter button.
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Get the category from the data-category attribute.
+            const category = button.dataset.category;
+
+            // Remove 'active' class from all buttons and add it to the clicked one.
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+
+            // Filter the items based on the category.
+            let filteredItems = [];
+            if (category === 'all') {
+                filteredItems = items;
+            } else {
+                filteredItems = items.filter(item => item.category === category);
+            }
+
+            // Render the filtered items.
+            renderItems(filteredItems);
+        });
+    });
+
+    // Initial render of all items when the page loads.
+    renderItems(items);
 });
