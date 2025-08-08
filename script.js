@@ -3,50 +3,69 @@ document.addEventListener('DOMContentLoaded', () => {
     // The item data is now defined directly within this script.
     const items = [
         {
-            "name": "Golden Tiger",
+            "name": "Banana gun",
             "category": "Funtimes",
-            "value": 15000,
-            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Golden+Tiger"
+            "value": "N/A",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Banana+Gun"
         },
         {
-            "name": "Lucky Cat",
+            "name": "Get coined",
             "category": "Funtimes",
-            "value": 5000,
-            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Lucky+Cat"
+            "value": "N/A",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Get+coined"
         },
         {
-            "name": "Diamond Grimoire",
-            "category": "Ultimates",
-            "value": 250000,
-            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Diamond+Grimoire"
+            "name": "Get diced",
+            "category": "Funtimes",
+            "value": "N/A",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Get+diced"
         },
         {
-            "name": "Ancient Scroll",
-            "category": "Ultimates",
-            "value": 150000,
-            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Ancient+Scroll"
+            "name": "Comically large knife",
+            "category": "Funtimes",
+            "value": "N/A",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Comically+large+knife"
         },
         {
-            "name": "Cosmic Sword",
-            "category": "Mythicals",
-            "value": 75000,
-            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Cosmic+Sword"
+            "name": "Stop sign",
+            "category": "Funtimes",
+            "value": "N/A",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Stop+sign"
         },
         {
-            "name": "Shadow Scythe",
-            "category": "Mythicals",
-            "value": 90000,
-            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Shadow+Scythe"
+            "name": "Comically large gun",
+            "category": "Funtimes",
+            "value": "N/A",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Comically+large+gun"
+        },
+        {
+            "name": "The sniper",
+            "category": "Funtimes",
+            "value": "N/A",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=The+sniper"
+        },
+        {
+            "name": "Warning sign",
+            "category": "Funtimes",
+            "value": "N/A",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Warning+sign"
         }
     ];
 
     const itemGrid = document.getElementById('item-grid');
     const filterButtons = document.querySelectorAll('.filter-btn');
+    const searchInput = document.querySelector('.search-input');
 
     // This function will build the item cards from a given array.
     const renderItems = (itemsToRender) => {
         // Clear any existing content in the grid.
         itemGrid.innerHTML = '';
+        
+        // If there are no items to render, display a message.
+        if (itemsToRender.length === 0) {
+            itemGrid.innerHTML = '<p style="text-align: center; margin-top: 2rem; font-style: italic; color: #a0aec0;">No items found in this category.</p>';
+            return;
+        }
 
         // Loop through each item in the data array.
         itemsToRender.forEach(item => {
@@ -63,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h3 class="item-name">${item.name}</h3>
                     <p class="item-category">Category: ${item.category}</p>
                     <div class="item-value-container">
-                        <span class="item-value">$${item.value.toLocaleString()}</span>
+                        <span class="item-value">$${item.value}</span>
                         <span class="item-value-label">(Estimated Value)</span>
                     </div>
                 </div>
@@ -95,6 +114,27 @@ document.addEventListener('DOMContentLoaded', () => {
             // Render the filtered items.
             renderItems(filteredItems);
         });
+    });
+
+    // Add search functionality
+    searchInput.addEventListener('input', (e) => {
+        const searchTerm = e.target.value.toLowerCase();
+        
+        // Find the currently active filter button
+        const activeFilter = document.querySelector('.filter-btn.active');
+        const activeCategory = activeFilter.dataset.category;
+
+        // Filter items based on both category and search term
+        let filteredItems = items;
+        if (activeCategory !== 'all') {
+            filteredItems = items.filter(item => item.category === activeCategory);
+        }
+
+        const finalFilteredItems = filteredItems.filter(item => 
+            item.name.toLowerCase().includes(searchTerm)
+        );
+
+        renderItems(finalFilteredItems);
     });
 
     // Initial render of all items when the page loads.
