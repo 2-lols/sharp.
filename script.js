@@ -4,27 +4,39 @@ document.addEventListener('DOMContentLoaded', () => {
     const items = [
         {
             "name": "Golden Tiger",
-            "category": "Pets",
+            "category": "Funtimes",
             "value": 15000,
             "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Golden+Tiger"
         },
         {
+            "name": "Lucky Cat",
+            "category": "Funtimes",
+            "value": 5000,
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Lucky+Cat"
+        },
+        {
             "name": "Diamond Grimoire",
-            "category": "Books",
+            "category": "Ultimates",
             "value": 250000,
             "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Diamond+Grimoire"
         },
         {
+            "name": "Ancient Scroll",
+            "category": "Ultimates",
+            "value": 150000,
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Ancient+Scroll"
+        },
+        {
             "name": "Cosmic Sword",
-            "category": "Weapons",
+            "category": "Mythicals",
             "value": 75000,
             "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Cosmic+Sword"
         },
         {
-            "name": "Lucky Cat",
-            "category": "Pets",
-            "value": 5000,
-            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Lucky+Cat"
+            "name": "Shadow Scythe",
+            "category": "Mythicals",
+            "value": 90000,
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Shadow+Scythe"
         }
     ];
 
