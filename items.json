@@ -96,4 +96,219 @@
         "imageId": "mythical-heavy-blaster"
     },
     {
-        "name":
+        "name": "Katana",
+        "category": "Mythicals",
+        "value": "50-55k",
+        "imageId": "mythical-katana"
+    },
+    {
+        "name": "Galaxy Sniper",
+        "category": "Mythicals",
+        "value": "50-55k",
+        "imageId": "mythical-galaxy-sniper"
+    },
+    {
+        "name": "Lucky katana",
+        "category": "Mythicals",
+        "value": "25-30k",
+        "imageId": "mythical-lucky-katana"
+    },
+    {
+        "name": "Overseer sniper",
+        "category": "Mythicals",
+        "value": "25-30k",
+        "imageId": "mythical-overseer-sniper"
+    },
+    {
+        "name": "Sakura katana",
+        "category": "Mythicals",
+        "value": "30k",
+        "imageId": "mythical-sakura-katana"
+    },
+    {
+        "name": "Bad kitten",
+        "category": "Mythicals",
+        "value": "30k",
+        "imageId": "mythical-bad-kitten"
+    },
+    {
+        "name": "Dark sunset",
+        "category": "Mythicals",
+        "value": "30k",
+        "imageId": "mythical-dark-sunset"
+    },
+    {
+        "name": "Dragonbreath",
+        "category": "Mythicals",
+        "value": "30k",
+        "imageId": "mythical-dragonbreath"
+    },
+    {
+        "name": "Mad tyrant",
+        "category": "Ultimates",
+        "value": "N/A",
+        "imageId": "ultimate-mad-tyrant"
+    },
+    {
+        "name": "Steampunk blade",
+        "category": "Ultimates",
+        "value": "110-120k",
+        "imageId": "ultimate-steampunk-blade"
+    },
+    {
+        "name": "Steampunk ray",
+        "category": "Ultimates",
+        "value": "110-120k",
+        "imageId": "ultimate-steampunk-ray"
+    },
+    {
+        "name": "Lafis knife",
+        "category": "Ultimates",
+        "value": "40k",
+        "imageId": "ultimate-lafis-knife"
+    },
+    {
+        "name": "Lafis gun",
+        "category": "Ultimates",
+        "value": "40k",
+        "imageId": "ultimate-lafis-gun"
+    },
+    {
+        "name": "Scorch torch",
+        "category": "Ultimates",
+        "value": "35k",
+        "imageId": "ultimate-scorch-torch"
+    },
+    {
+        "name": "Hotshot",
+        "category": "Ultimates",
+        "value": "35k",
+        "imageId": "ultimate-hotshot"
+    },
+    {
+        "name": "Chess club",
+        "category": "Ultimates",
+        "value": "N/A",
+        "imageId": "ultimate-chess-club"
+    },
+    {
+        "name": "Checkmate",
+        "category": "Ultimates",
+        "value": "N/A",
+        "imageId": "ultimate-checkmate"
+    },
+    {
+        "name": "Squeaky mallet",
+        "category": "Ultimates",
+        "value": "50k",
+        "imageId": "ultimate-squeaky-mallet"
+    },
+    {
+        "name": "Squeaky piggy",
+        "category": "Ultimates",
+        "value": "50k",
+        "imageId": "ultimate-squeaky-piggy"
+    },
+    {
+        "name": "Rock candy",
+        "category": "Ultimates",
+        "value": "50k",
+        "imageId": "ultimate-rock-candy"
+    },
+    {
+        "name": "Gumball",
+        "category": "Ultimates",
+        "value": "50k",
+        "imageId": "ultimate-gumball"
+    },
+    {
+        "name": "Furnace",
+        "category": "Ultimates",
+        "value": "50k",
+        "imageId": "ultimate-furnace"
+    },
+    {
+        "name": "Double trouble",
+        "category": "Ultimates",
+        "value": "50k",
+        "imageId": "ultimate-double-trouble"
+    },
+    {
+        "name": "Hades axe",
+        "category": "Collector",
+        "value": "15k",
+        "imageId": "collector-hades-axe"
+    },
+    {
+        "name": "Hades rifle",
+        "category": "Collector",
+        "value": "15k",
+        "imageId": "collector-hades-rifle"
+    },
+    {
+        "name": "Warp scythe",
+        "category": "Collector",
+        "value": "40k",
+        "imageId": "collector-warp-scythe"
+    },
+    {
+        "name": "Warp gun",
+        "category": "Collector",
+        "value": "40k",
+        "imageId": "collector-warp-gun"
+    },
+    {
+        "name": "Angel axe v1",
+        "category": "Collector",
+        "value": "50-60k",
+        "imageId": "collector-angel-axe-v1"
+    },
+    {
+        "name": "Angel gun v1",
+        "category": "Collector",
+        "value": "50-60k",
+        "imageId": "collector-angel-gun-v1"
+    },
+    {
+        "name": "Grenade gun",
+        "category": "Mads",
+        "value": "7-8k",
+        "imageId": "mads-grenade-gun"
+    },
+    {
+        "name": "Explosive knife",
+        "category": "Mads",
+        "value": "7-8k",
+        "imageId": "mads-explosive-knife"
+    },
+    {
+        "name": "Rune dagger",
+        "category": "Mads",
+        "value": "3-4k",
+        "imageId": "mads-rune-dagger"
+    },
+    {
+        "name": "Troll knife",
+        "category": "Mads",
+        "value": "3-4k",
+        "imageId": "mads-troll-knife"
+    },
+    {
+        "name": "Red baller",
+        "category": "Mads",
+        "value": "10-12k",
+        "imageId": "mads-red-baller"
+    },
+    {
+        "name": "Blue baller",
+        "category": "Mads",
+        "value": "10-12k",
+        "imageId": "mads-blue-baller"
+    },
+    {
+        "name": "Golden pan",
+        "category": "Mads",
+        "value": "N/A",
+        "imageId": "mads-golden-pan"
+    }
+]
