@@ -1,0 +1,169 @@
+/* Basic CSS Reset and Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1a202c; /* Equivalent of bg-gray-900 */
+    color: #e2e8f0; /* Equivalent of text-gray-200 */
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Header Styling */
+.header {
+    background-color: #2d3748; /* Equivalent of bg-gray-800 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.25rem; /* 3xl */
+    font-weight: 800; /* extabold */
+    color: #ffffff;
+}
+
+.header h1 .game-name {
+    color: #6366f1; /* Equivalent of text-indigo-500 */
+}
+
+.header p {
+    font-size: 1.125rem; /* lg */
+    color: #a0aec0; /* Equivalent of text-gray-400 */
+    margin-top: 0.5rem;
+}
+
+/* Main Content Styling */
+.main-content {
+    min-height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Search Bar Styling */
+.search-bar {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    width: 100%;
+    max-width: 448px; /* max-w-md */
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #4a5568; /* Equivalent of bg-gray-700 */
+    color: #e2e8f0;
+    border: 2px solid #4a5568;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #6366f1;
+}
+
+/* Item Grid and Card Styling */
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.5rem; /* gap-6 */
+}
+
+.item-card {
+    background-color: #2d3748; /* Equivalent of bg-gray-800 */
+    border-radius: 0.75rem; /* rounded-xl */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.item-card:hover {
+    transform: scale(1.05);
+}
+
+.item-card-image {
+    width: 100%;
+    height: 12rem; /* h-48 */
+    object-fit: cover;
+    object-position: center;
+}
+
+.item-card-content {
+    padding: 1rem;
+}
+
+.item-name {
+    font-size: 1.125rem; /* lg */
+    font-weight: 700; /* bold */
+    color: #ffffff;
+    margin-bottom: 0.25rem;
+}
+
+.item-category {
+    font-size: 0.875rem; /* sm */
+    color: #a0aec0;
+}
+
+.item-value-container {
+    margin-top: 0.75rem;
+}
+
+.item-value {
+    font-size: 1.25rem; /* xl */
+    font-weight: 800; /* extabold */
+    color: #818cf8; /* Equivalent of text-indigo-400 */
+}
+
+.item-value-label {
+    font-size: 0.875rem; /* sm */
+    color: #718096; /* Equivalent of text-gray-500 */
+    margin-left: 0.5rem;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #2d3748;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 0.875rem; /* sm */
+    color: #718096;
+}
+
+/* Responsive Design */
+@media (min-width: 640px) { /* sm */
+    .item-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 768px) { /* md */
+    .item-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1024px) { /* lg */
+    .item-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
