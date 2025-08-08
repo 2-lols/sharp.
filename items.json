@@ -3,234 +3,97 @@
         "name": "Banana gun",
         "category": "Funtimes",
         "value": "N/A",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Funtimes+Items"
+        "imageId": "funtime-banana-gun"
     },
     {
         "name": "Get coined",
         "category": "Funtimes",
         "value": "N/A",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Funtimes+Items"
+        "imageId": "funtime-get-coined"
     },
     {
         "name": "Get diced",
         "category": "Funtimes",
         "value": "N/A",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Funtimes+Items"
+        "imageId": "funtime-get-diced"
     },
     {
         "name": "Comically large knife",
         "category": "Funtimes",
         "value": "N/A",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Funtimes+Items"
+        "imageId": "funtime-large-knife"
     },
     {
         "name": "Stop sign",
         "category": "Funtimes",
         "value": "N/A",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Funtimes+Items"
+        "imageId": "funtime-stop-sign"
     },
     {
         "name": "Comically large gun",
         "category": "Funtimes",
         "value": "N/A",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Funtimes+Items"
+        "imageId": "funtime-large-gun"
     },
     {
         "name": "The sniper",
         "category": "Funtimes",
         "value": "N/A",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Funtimes+Items"
+        "imageId": "funtime-the-sniper"
     },
     {
         "name": "Warning sign",
         "category": "Funtimes",
         "value": "N/A",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Funtimes+Items"
+        "imageId": "funtime-warning-sign"
     },
     {
         "name": "Whirlpool knife",
         "category": "Mythicals",
         "value": "50-55k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Mythicals+Items"
+        "imageId": "mythical-whirlpool-knife"
     },
     {
         "name": "Whirlpool gun",
         "category": "Mythicals",
         "value": "50-55k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Mythicals+Items"
+        "imageId": "mythical-whirlpool-gun"
     },
     {
         "name": "Fairy wand",
         "category": "Mythicals",
         "value": "50-55k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Mythicals+Items"
+        "imageId": "mythical-fairy-wand"
     },
     {
         "name": "Ancient wand",
         "category": "Mythicals",
         "value": "50-55k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Mythicals+Items"
+        "imageId": "mythical-ancient-wand"
     },
     {
         "name": "Commando knife",
         "category": "Mythicals",
         "value": "50-55k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Mythicals+Items"
+        "imageId": "mythical-commando-knife"
     },
     {
         "name": "Silenced pistol",
         "category": "Mythicals",
         "value": "50-55k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Mythicals+Items"
+        "imageId": "mythical-silenced-pistol"
     },
     {
         "name": "Kyber",
         "category": "Mythicals",
         "value": "50-55k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Mythicals+Items"
+        "imageId": "mythical-kyber"
     },
     {
         "name": "Heavy blaster",
         "category": "Mythicals",
         "value": "50-55k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Mythicals+Items"
+        "imageId": "mythical-heavy-blaster"
     },
     {
-        "name": "Katana",
-        "category": "Mythicals",
-        "value": "50-55k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Mythicals+Items"
-    },
-    {
-        "name": "Galaxy Sniper",
-        "category": "Mythicals",
-        "value": "50-55k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Mythicals+Items"
-    },
-    {
-        "name": "Lucky katana",
-        "category": "Mythicals",
-        "value": "25-30k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Mythicals+Items"
-    },
-    {
-        "name": "Overseer sniper",
-        "category": "Mythicals",
-        "value": "25-30k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Mythicals+Items"
-    },
-    {
-        "name": "Sakura katana",
-        "category": "Mythicals",
-        "value": "30k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Mythicals+Items"
-    },
-    {
-        "name": "Bad kitten",
-        "category": "Mythicals",
-        "value": "30k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Mythicals+Items"
-    },
-    {
-        "name": "Dark sunset",
-        "category": "Mythicals",
-        "value": "30k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Mythicals+Items"
-    },
-    {
-        "name": "Dragonbreath",
-        "category": "Mythicals",
-        "value": "30k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Mythicals+Items"
-    },
-    {
-        "name": "Mad tyrant",
-        "category": "Ultimates",
-        "value": "N/A",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Ultimates+Items"
-    },
-    {
-        "name": "Steampunk blade",
-        "category": "Ultimates",
-        "value": "110-120k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Ultimates+Items"
-    },
-    {
-        "name": "Steampunk ray",
-        "category": "Ultimates",
-        "value": "110-120k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Ultimates+Items"
-    },
-    {
-        "name": "Lafis knife",
-        "category": "Ultimates",
-        "value": "40k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Ultimates+Items"
-    },
-    {
-        "name": "Lafis gun",
-        "category": "Ultimates",
-        "value": "40k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Ultimates+Items"
-    },
-    {
-        "name": "Scorch torch",
-        "category": "Ultimates",
-        "value": "35k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Ultimates+Items"
-    },
-    {
-        "name": "Hotshot",
-        "category": "Ultimates",
-        "value": "35k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Ultimates+Items"
-    },
-    {
-        "name": "Chess club",
-        "category": "Ultimates",
-        "value": "N/A",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Ultimates+Items"
-    },
-    {
-        "name": "Checkmate",
-        "category": "Ultimates",
-        "value": "N/A",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Ultimates+Items"
-    },
-    {
-        "name": "Squeaky mallet",
-        "category": "Ultimates",
-        "value": "50k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Ultimates+Items"
-    },
-    {
-        "name": "Squeaky piggy",
-        "category": "Ultimates",
-        "value": "50k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Ultimates+Items"
-    },
-    {
-        "name": "Rock candy",
-        "category": "Ultimates",
-        "value": "50k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Ultimates+Items"
-    },
-    {
-        "name": "Gumball",
-        "category": "Ultimates",
-        "value": "50k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Ultimates+Items"
-    },
-    {
-        "name": "Furnace",
-        "category": "Ultimates",
-        "value": "50k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Ultimates+Items"
-    },
-    {
-        "name": "Double trouble",
-        "category": "Ultimates",
-        "value": "50k",
-        "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Ultimates+Items"
-    }
-]
+        "name":
