@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Set the inner HTML of the card using a template literal.
             // This builds the card's content with data from the 'items' variable.
             card.innerHTML = `
-                <img class="item-card-image" src="${item.imageUrl}" alt="${item.name} Image" onerror="this.onerror=null;this.src='https://placehold.co/600x400/1f2937/d1d5db?text=Image+Not+Found';">
+                <img class="item-card-image" src="${item.imageUrl}" alt="${item.name} Image">
                 <div class="item-card-content">
                     <h3 class="item-name">${item.name}</h3>
                     <p class="item-category">Category: ${item.category}</p>
