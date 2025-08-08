@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // This is the complete and updated list of items with Funtimes and Mythicals.
+    // This is the complete and updated list of items with Funtimes, Mythicals, and Ultimates.
     const items = [
         // Funtimes Items
         {
@@ -147,6 +147,97 @@ document.addEventListener('DOMContentLoaded', () => {
             "category": "Mythicals",
             "value": "30k",
             "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Dragonbreath"
+        },
+        // Ultimates Items
+        {
+            "name": "Mad tyrant",
+            "category": "Ultimates",
+            "value": "N/A",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Mad+tyrant"
+        },
+        {
+            "name": "Steampunk blade",
+            "category": "Ultimates",
+            "value": "110-120k",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Steampunk+blade"
+        },
+        {
+            "name": "Steampunk ray",
+            "category": "Ultimates",
+            "value": "110-120k",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Steampunk+ray"
+        },
+        {
+            "name": "Lafis knife",
+            "category": "Ultimates",
+            "value": "40k",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Lafis+knife"
+        },
+        {
+            "name": "Lafis gun",
+            "category": "Ultimates",
+            "value": "40k",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Lafis+gun"
+        },
+        {
+            "name": "Scorch torch",
+            "category": "Ultimates",
+            "value": "35k",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Scorch+torch"
+        },
+        {
+            "name": "Hotshot",
+            "category": "Ultimates",
+            "value": "35k",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Hotshot"
+        },
+        {
+            "name": "Chess club",
+            "category": "Ultimates",
+            "value": "N/A",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Chess+club"
+        },
+        {
+            "name": "Checkmate",
+            "category": "Ultimates",
+            "value": "N/A",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Checkmate"
+        },
+        {
+            "name": "Squeaky mallet",
+            "category": "Ultimates",
+            "value": "50k",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Squeaky+mallet"
+        },
+        {
+            "name": "Squeaky piggy",
+            "category": "Ultimates",
+            "value": "50k",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Squeaky+piggy"
+        },
+        {
+            "name": "Rock candy",
+            "category": "Ultimates",
+            "value": "50k",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Rock+candy"
+        },
+        {
+            "name": "Gumball",
+            "category": "Ultimates",
+            "value": "50k",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Gumball"
+        },
+        {
+            "name": "Furnace",
+            "category": "Ultimates",
+            "value": "50k",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Furnace"
+        },
+        {
+            "name": "Double trouble",
+            "category": "Ultimates",
+            "value": "50k",
+            "imageUrl": "https://placehold.co/600x400/1f2937/d1d5db?text=Double+trouble"
         }
     ];
 
