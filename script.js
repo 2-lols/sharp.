@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // The item data is now defined directly within this script.
+    // This is the complete and updated list of items.
     const items = [
         {
             "name": "Banana gun",
